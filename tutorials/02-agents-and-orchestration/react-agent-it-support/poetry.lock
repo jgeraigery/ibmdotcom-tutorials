@@ -323,50 +323,50 @@ zstd = ["zstandard (>=0.18.0)"]
 
 [[package]]
 name = "ibm-cos-sdk"
-version = "2.14.0"
+version = "2.14.3"
 description = "IBM SDK for Python"
 optional = false
 python-versions = ">=3.8"
 groups = ["main"]
 files = [
-    {file = "ibm-cos-sdk-2.14.0.tar.gz", hash = "sha256:732fb5cdf6cc58f954bd78612d317187cd36dff48801b0b937a81df3ece2c4be"},
+    {file = "ibm_cos_sdk-2.14.3.tar.gz", hash = "sha256:643b6f2aa1683adad7f432df23407d11ae5adb9d9ad01214115bee77dc64364a"},
 ]
 
 [package.dependencies]
-ibm-cos-sdk-core = "2.14.0"
-ibm-cos-sdk-s3transfer = "2.14.0"
+ibm-cos-sdk-core = "2.14.3"
+ibm-cos-sdk-s3transfer = "2.14.3"
 jmespath = ">=0.10.0,<=1.0.1"
 
 [[package]]
 name = "ibm-cos-sdk-core"
-version = "2.14.0"
+version = "2.14.3"
 description = "Low-level, data-driven core of IBM SDK for Python"
 optional = false
 python-versions = ">=3.6"
 groups = ["main"]
 files = [
-    {file = "ibm-cos-sdk-core-2.14.0.tar.gz", hash = "sha256:2905e00a9cc61aed945a4f58daa6037ae7c2ca76fa0ae75b2949b300557bf5ca"},
+    {file = "ibm_cos_sdk_core-2.14.3.tar.gz", hash = "sha256:85dee7790c92e8db69bf39dae4c02cac211e3c1d81bb86e64fa2d1e929674623"},
 ]
 
 [package.dependencies]
 jmespath = ">=0.10.0,<=1.0.1"
 python-dateutil = ">=2.9.0,<3.0.0"
-requests = ">=2.32.0,<2.32.3"
-urllib3 = ">=1.26.18,<3"
+requests = ">=2.32.4,<3.0.0"
+urllib3 = ">=2.5.0,<3"
 
 [[package]]
 name = "ibm-cos-sdk-s3transfer"
-version = "2.14.0"
+version = "2.14.3"
 description = "IBM S3 Transfer Manager"
 optional = false
 python-versions = ">=3.8"
 groups = ["main"]
 files = [
-    {file = "ibm-cos-sdk-s3transfer-2.14.0.tar.gz", hash = "sha256:8eda9af12477c31d399449f655c42c694ae9c3dad46801ed923f4cd5bdc4ff13"},
+    {file = "ibm_cos_sdk_s3transfer-2.14.3.tar.gz", hash = "sha256:2251ebfc4a46144401e431f4a5d9f04c262a0d6f95c88a8e71071da056e55f72"},
 ]
 
 [package.dependencies]
-ibm-cos-sdk-core = "2.14.0"
+ibm-cos-sdk-core = "2.14.3"
 
 [[package]]
 name = "ibm-watsonx-ai"
@@ -1181,25 +1181,25 @@ files = [
 
 [[package]]
 name = "requests"
-version = "2.32.2"
+version = "2.34.2"
 description = "Python HTTP for Humans."
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "requests-2.32.2-py3-none-any.whl", hash = "sha256:fc06670dd0ed212426dfeb94fc1b983d917c4f9847c863f313c9dfaaffb7c23c"},
-    {file = "requests-2.32.2.tar.gz", hash = "sha256:dd951ff5ecf3e3b3aa26b40703ba77495dab41da839ae72ef3c8e5d8e2433289"},
+    {file = "requests-2.34.2-py3-none-any.whl", hash = "sha256:2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0"},
+    {file = "requests-2.34.2.tar.gz", hash = "sha256:f288924cae4e29463698d6d60bc6a4da69c89185ad1e0bcc4104f584e960b9ed"},
 ]
 
 [package.dependencies]
-certifi = ">=2017.4.17"
-charset-normalizer = ">=2,<4"
+certifi = ">=2023.5.7"
+charset_normalizer = ">=2,<4"
 idna = ">=2.5,<4"
-urllib3 = ">=1.21.1,<3"
+urllib3 = ">=1.26,<3"
 
 [package.extras]
 socks = ["PySocks (>=1.5.6,!=1.5.7)"]
-use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
+use-chardet-on-py3 = ["chardet (>=3.0.2,<8)"]
 
 [[package]]
 name = "requests-toolbelt"
